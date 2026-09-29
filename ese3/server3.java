@@ -31,7 +31,7 @@ public class server3 {
         //creo gli stream
         BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
         PrintWriter out = new PrintWriter(socket.getOutputStream(), true);
-        out.println("Questo server svolge operazioni matematiche (OP1: somma, OP2: sottrazione, OP3: moltiplicazione, OP4: divisione) \n OP numero1 numero2: (0 chiudi la connesione)");
+        out.println("Questo server svolge operazioni matematiche (OP1: somma, OP2: sottrazione, OP3: moltiplicazione, OP4: divisione) OP numero1 numero2: (0 chiudi la connesione)");
         //gestione richiesta
         String mess;
         String risp;
